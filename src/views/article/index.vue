@@ -202,7 +202,7 @@ export default {
       this.$confirm('确认删除吗？', '删除提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
-        type: 'warning'
+        type: 'warning'  
       }).then(() => {
         // 确认执行这里
         deleteArticle(articleId.toString()).then(res => {
